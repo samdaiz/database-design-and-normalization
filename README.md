@@ -33,23 +33,15 @@ Tasks may not be submitted as cloud links, such as links to Google Docs, Google 
  
 A.  Construct a normalized physical database model to represent the ordering process for Nora’s Bagel Bin by doing the following:
  
-Note: Before proceeding, familiarize yourself with the ordering process for Nora’s Bagel Bin by reviewing the following documents in the Supporting Documents section of this task: the shop’s unnormalized sales order form (“Bagel Order Form”) and the first normal form (1NF) provided in the “Nora’s Bagel Bin Database Blueprints.” 
- 
 1.  Complete the second normal form (2NF) section of the attached “Nora’s Bagel Bin Database Blueprints” document by doing the following:
 a.  Assign each attribute from the 1NF table into the correct 2NF table.
 b.  Describe the relationship between the two pairs of 2NF tables by indicating their cardinality in each of the dotted cells: one-to-one (1:1), one-to-many (1:M), many-to-one (M:1), or many-to-many (M:M).
-
-Note: Cardinality is read left to right and top to bottom, and the preferred method of notation is crow's foot.
-
 c.  Explain how you assigned attributes to the 2NF tables and determined the cardinality of the relationships between your 2NF tables.
 2.  Complete the third normal form (3NF) section of the attached “Nora’s Bagel Bin Database Blueprints” document by doing the following:
 a.  Assign each attribute from your 2NF "Bagel Order" table into one of the new 3NF tables. Copy all other information from your 2NF diagram into the 3NF diagram.
 b.  Provide each 3NF table with a name that reflects its contents.
 c.  Create a new field that will be used as a key linking the two 3NF tables you named in part A2b. Ensure that your primary key (PK) and foreign key (FK) fields are in the correct locations in the 3NF diagram.
 d.  Describe the relationships between the 3NF tables by indicating their cardinality in each of the dotted cells: one-to-one (1:1), one-to-many (1:M), many-to-one (M:1), or many-to-many (M:M).
-
-Note: Cardinality is read left to right and top to bottom, and the preferred method of notation is crow's foot.
-
 e.  Explain how you assigned attributes to the 3NF tables and determined the cardinality of the relationships between your 3NF tables.
 3.  Complete the "Final Physical Database Model" section of the attached “Nora’s Bagel Bin Database Blueprints” document by doing the following:
 a.  Copy the table names and cardinality information from your 3NF diagram into the “Final Physical Database Model” and rename the attributes.
@@ -60,9 +52,6 @@ B.  Create a database using the attached "Jaunty Coffee Co. ERD" by doing the fo
 a.  Provide the SQL code you wrote to create all the tables.
 b.  Demonstrate that you tested your code by providing a screenshot showing your SQL commands and the database server’s response.
 2.  Develop SQL code to populate each table in the database design document by doing the following:
- 
-Note: This data is not provided. You will be fabricating the data for this step.
- 
 a.  Provide the SQL code you wrote to populate the tables with at least three rows of data in each table.
 b.  Demonstrate that you tested your code by providing a screenshot showing your SQL commands and the database server’s response.
 3.  Develop SQL code to create a view by doing the following: 
